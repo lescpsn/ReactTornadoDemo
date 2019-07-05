@@ -20,6 +20,11 @@
     > 如果是windows平台，msys2终端中调用可能有问题，直接在cmd中执行
     >
 
+4. 引入antd
+    > npm install antd --save  
+    > 或者   
+    > yarn add antd
+
 
 
 
