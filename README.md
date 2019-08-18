@@ -6,13 +6,11 @@
 
 ## 搭建前端工程
 
-### create-react-app构建工程
+### 方法一create-react-app构建工程
 > 新建前端目录 front_end, 采用react构建工程  
 1. 安装 node  
     > 设置npm的镜像源  
     > npm config set registry http://registry.npm.taobao.org/  
-
-
 
 2. 安装 create-react-app  
     > npm install -g create-react-app  
@@ -29,6 +27,13 @@
     > 或者   
     > yarn add antd
 
+### 方法二umi构建工程
+1. mkdir front_end
+
+2. 创建umi
+    > yarn create umi  
+    > 或者  
+    > npm create umi  
 
 
 
