@@ -34,6 +34,13 @@
     > yarn create umi  
     > 或者  
     > npm create umi  
+    > 选择 app -> typescript(N) -> antd & dva
+
+3. 安装依赖  
+    > yarn  
+    > 或者  
+    > npm install  
+
 
 
 
