@@ -41,6 +41,12 @@
     > 或者  
     > npm install  
 
+4. 全局安装npx
+    >  yarn global add npx  
+
+5. 创建页面路由  
+    > npx umi g page products  
+
 
 
 
