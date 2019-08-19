@@ -18,7 +18,7 @@
 3. 构建前端工程(front_end)  
     > create-react-app front_end  
     > 或者  
-    > yarn create react-app front_end  
+    > yarn create react-app antd-demo
     > 如果是windows平台，msys2终端中调用可能有问题，直接在cmd中执行  
     >
 
