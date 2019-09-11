@@ -63,7 +63,7 @@
     > );      
 
 
-    5.5 自定义主题
+    5.5 自定义主题安装 less less-loader 并修改 config-overrides.js
     > yarn add less less-loader
     > 修改config-overrides.js文件
 
