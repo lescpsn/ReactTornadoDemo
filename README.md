@@ -44,9 +44,9 @@
     > },      
 
     5.3 新建 config-overrides.js
-    > module.exports = function override(config, env) { 
-    >   // do stuff with the webpack config... 
-    >   return config; 
+    > module.exports = function override(config, env) {  
+    >   // do stuff with the webpack config...  
+    >   return config;  
     > };      
 
     5.4 安装 babel-plugin-import 并修改 config-overrides.js
