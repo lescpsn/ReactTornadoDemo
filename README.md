@@ -25,10 +25,11 @@
     > 如果是windows平台，msys2终端中调用可能有问题，直接在cmd中执行  
     >
 
-4. 引入antd
-    > npm install antd --save  
+4. 引入antd(优先用yarn添加依赖)
+    > yarn add antd  
     > 或者   
-    > yarn add antd
+    > npm install antd --save  
+    
 
 5. 自定义配置
     5.1 安装 react-app-rewired customize-cra  
