@@ -34,7 +34,7 @@
     5.1 安装 react-app-rewired customize-cra  
     > yarn add react-app-rewired customize-cra  
 
-    5.2 修改package.json  
+    5.2 修改 package.json  
     > -   "start": "react-scripts start",  
     > +   "start": "react-app-rewired start",  
     > -   "build": "react-scripts build",  
@@ -42,9 +42,9 @@
     > -   "test": "react-scripts test",  
     > +   "test": "react-app-rewired test",    
 
-    5.3 新建config-overrides.js 
+    5.3 新建 config-overrides.js 
 
-    5.4 安装yarn add babel-plugin-import
+    5.4 安装 yarn add babel-plugin-import
     > yarn add yarn add babel-plugin-import  
 
 
