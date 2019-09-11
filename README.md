@@ -49,8 +49,18 @@
     >   return config; 
     > };      
 
-    5.4 安装 yarn add babel-plugin-import
-    > yarn add yarn add babel-plugin-import  
+    5.4 安装 babel-plugin-import 并修改 config-overrides.js
+    > yarn add babel-plugin-import  
+
+    > const { override, fixBabelImports } = require ('customize-cra');  
+
+    > module.exports = override(  
+    >   fixBabelImports('import', {  
+    >     libraryName: 'antd',  
+    >     libraryDirectory: 'es',  
+    >     style: 'css',  
+    >   }),  
+    > );      
 
 
     5.5 自定义主题
