@@ -43,7 +43,7 @@
     >   "eject": "react-app-rewired eject"  
     > },      
 
-    5.3 新建 config-overrides.js
+    5.3 新建 config-overrides.js  
     > module.exports = function override(config, env) {  
     >   // do stuff with the webpack config...  
     >   return config;  
