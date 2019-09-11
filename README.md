@@ -31,7 +31,7 @@
     > npm install antd --save  
     
 
-5. 自定义配置
+5. 自定义配置  
     5.1 安装 react-app-rewired customize-cra  
     > yarn add react-app-rewired customize-cra  
 
