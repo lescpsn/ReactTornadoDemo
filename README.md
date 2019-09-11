@@ -27,6 +27,31 @@
     > 或者   
     > yarn add antd
 
+5. 自定义配置
+    5.1 安装 react-app-rewired customize-cra  
+    > yarn add react-app-rewired customize-cra  
+
+    5.2 修改package.json  
+    > -   "start": "react-scripts start",  
+    > +   "start": "react-app-rewired start",  
+    > -   "build": "react-scripts build",  
+    > +   "build": "react-app-rewired build",  
+    > -   "test": "react-scripts test",  
+    > +   "test": "react-app-rewired test",    
+
+    5.3 新建config-overrides.js 
+
+    5.4 安装yarn add babel-plugin-import
+    > yarn add yarn add babel-plugin-import  
+
+
+    5.5 自定义主题
+    > yarn add less less-loader
+    > 修改config-overrides.js文件
+
+
+
+
 ### 方法二umi构建工程
 1. mkdir front_end
 
