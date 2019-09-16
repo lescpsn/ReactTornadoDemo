@@ -89,6 +89,8 @@
 
 3. npm install umi --save-dev
 
+4. 新建umi的配置文件 config/config.js（或.umirc.js）二选一
+
 
 
 ### 方法二umi构建工程
