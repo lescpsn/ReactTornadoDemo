@@ -82,7 +82,7 @@
     > );      
 
 
-### 方法二umi架构构建工程
+### 方法二umi架构手工构建工程
 1. mkdir antd-umi
 
 2. npm init -y
