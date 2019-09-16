@@ -1,4 +1,4 @@
-/* @import '~antd/dist/antd.css'; */
+@import '~antd/dist/antd.css';
 
 .App {
   text-align: center;
@@ -32,4 +32,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.gutter-box {
+  background: #00a0e9;
+  padding: 5px 0;
+}
+
+/* .gutter-example {
+  background: transparent;
+  border: 0;
+} */
+
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
 }

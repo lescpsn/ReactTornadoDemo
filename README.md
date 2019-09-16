@@ -82,6 +82,13 @@
     > );      
 
 
+### 方法二umi架构构建工程
+1. mkdir antd-umi
+
+2. npm init -y
+
+3. npm install umi --save-dev
+
 
 
 ### 方法二umi构建工程
