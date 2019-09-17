@@ -93,6 +93,8 @@
 
 5. npm install umi-plugin-react --save-dev
 
+6. npm install serve -g
+
 
 
 ### 方法二umi构建工程
