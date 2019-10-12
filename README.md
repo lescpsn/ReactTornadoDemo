@@ -1,6 +1,6 @@
 # ReactTornadoDemo
 ## 工程结构概览
-> antd-demo  用create-react-app构建的前端工程  
+> antd-demo  用 create-react-app 构建的前端工程  
 > front_end  
 > back_end  后端工程
 
@@ -82,7 +82,7 @@
     > );      
 
 
-### 方法二umi架构手工构建工程
+### 方法二 umi 手工构建工程
 1. mkdir antd-umi
 
 2. npm init -y
@@ -97,7 +97,7 @@
 
 
 
-### 方法二umi构建工程
+### 方法三 umi 自动构建工程
 1. mkdir front_end
 
 2. 创建umi
