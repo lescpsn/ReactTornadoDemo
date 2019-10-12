@@ -22,11 +22,11 @@ export default class BasicLayout extends Component {
             </Menu.Item>
             <SubMenu
               key="sub1"
-              title={<span><Icon type="dashboard" /><span>Dashboard</span></span>}
+              title={<span><Icon type="dashboard" /><span>123456@qq.com</span></span>}
             >
-               <Menu.Item key="2">分析页</Menu.Item>
-               <Menu.Item key="3">监控页</Menu.Item>
-               <Menu.Item key="4">工作台</Menu.Item>
+               <Menu.Item key="2">收件箱</Menu.Item>
+               <Menu.Item key="3">草稿箱</Menu.Item>
+               <Menu.Item key="4">垃圾箱</Menu.Item>
             </SubMenu>
           </Menu>
         </Sider>
