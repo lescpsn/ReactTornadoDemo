@@ -12,11 +12,11 @@ export default {
         routes: [
             {
                 path: '/',
-                component: 'Helloworld',
+                component: 'abstract',
             },
             {
-              path: '/helloworld',
-              component: 'Helloworld'
+              path: '/abstract',
+              component: 'abstract'
             },
         ]
     }],
