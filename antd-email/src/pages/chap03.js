@@ -71,7 +71,7 @@ export default class PuzzleCardsPage extends Component {
                         })
                 }
 
-                {/* <Button onClick = {this.addNewCard}>添加卡片</Button> */}
+                <Button onClick = {this.addNewCard}>添加卡片</Button>
             </div>
         );
     }
