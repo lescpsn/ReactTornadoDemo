@@ -23,8 +23,17 @@ const mapDispatchToProps = (dispatch) => {
                 payload: newCard,                
             }
 
+
             dispatch(action);
         },
+
+        onDidMount: ()=> {
+            console.log("*******t222101:")
+            const action = {
+                type: `${namespace}/queryInitCards`,
+            }
+            dispatch(action);
+        }
     };
 };
 
@@ -68,6 +77,10 @@ export default class PuzzleCardsPage extends Component {
 
     //     })
     // }
+
+    componentDidMount() {
+        this.props.onDidMount();
+    }
 
     render() {
         return (
