@@ -131,6 +131,13 @@ class BaseLayout extends Component {
                             </Menu.Item>                            
 
 
+                            <Menu.Item key="chap04">
+                                <Link to="/list/chap04">
+                                    <Icon type="pie-chart" />
+                                    <span>第4章</span>
+                                </Link>
+                            </Menu.Item>  
+
                         </Menu>
                     </Sider>
 
